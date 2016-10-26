@@ -1,2 +1,2 @@
 # Position_Specific_Estimated_Energy
-Position Specific Estimated Energy (PSEE) is a residue-wise energy score extracetd from protein sequence only for protein structure prediction. 
+Position Specific Estimated Energy (PSEE) is a residue-wise energy score extracetd from protein sequence only for protein structure prediction. Citation: Iqbal S, Hoque MT (2016) Estimation of Position Specific Energy as a Feature of Protein Residues from Sequence Alone for Structural Classification. PLoS ONE 11(9): e0161452. doi:10.1371/journal… http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0161452
