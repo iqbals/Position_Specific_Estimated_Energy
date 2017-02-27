@@ -3,12 +3,23 @@ Position Specific Estimated Energy (PSEE) is a residue-wise energy score extrace
 
 Citation: Iqbal S, Hoque MT (2016) Estimation of Position Specific Energy as a Feature of Protein Residues from Sequence Alone for Structural Classification. PLoS ONE 11(9): e0161452. doi:10.1371/journal… http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0161452
 
+Input Format Guidelines
+=======================
+
+- Paste test protein sequence in directory "PSEE/Software/Input/FASTA"
+	- follow standard FASTA format: >header and FASTA sequence
+	- multiple proteins should be placed in separate FASTA files
+	- name format: 'id.fasta'
+
+- Paste protein id (no extension) in id_list
+	
+NOTE: Program is strictly dependent on the input file format.
+
 Quick Run Guide
 ===============
 	
 1) SET input
 	- Redirect into PSEE/Software/Input
-	- Follow the instructions in "ReadMe_Input.txt" to complete "Raw_Data.txt" and "id_list.txt"
 	
 2) SET path variables within script 'generate_PSEE'
 	- Redirect into PSEE/Software/Scripts
